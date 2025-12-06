@@ -41,6 +41,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	backface-visibility: hidden;
+    /* ★ 新增 ★ */
+    align-items: center;
+    justify-content: center;
 }
 
 .flip-card-back {
