@@ -164,9 +164,6 @@ body {
     flex-direction: column;
     justify-content: center;    /* 垂直居中 */
     align-items: center;        /* 水平居中 */
-    min-height: 100vh;          /* 关键：占据整个视口高度 */
-    padding: 20px;              /* 防止内容贴边 */
-    text-align: center;         /* 文本居中 */
 }
 
 .login-container h1 {
