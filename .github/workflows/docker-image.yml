@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.repository == 'shuaiplus/nodecrypt'
+    if: github.repository == 'ligusx/nodecrypt'
     steps:
       - uses: actions/checkout@v4
       - name: Log in to GitHub Container Registry
@@ -22,5 +22,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/shuaiplus/nodecrypt:latest
-            ghcr.io/shuaiplus/nodecrypt:${{ github.sha }}
+            ghcr.io/ligusx/nodecrypt:latest
+            ghcr.io/ligusx/nodecrypt:${{ github.sha }}
